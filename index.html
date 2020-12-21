@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/style.css">
+   
+    <title>PavelCom</title>
+    <link rel="shortcut icon" type="image/png" href="newImg/Logo_Pavelcom.png" />
+</head>
+<body>
+    <div class="menu">
+        <div class="container">
+            <div class="menu_home">
+                <nav>
+                    <ul class="menu_ul">
+                        <li class="menu__item"><a href="#Home">ГЛАВНАЯ</a></li>
+                        <li class="menu__item"><a href="#Price">НАШИ УСЛУГИ</a></li>
+                        <li class="menu__item"><a href="#About">О НАС</a></li>
+                        <li class="menu__item"><a href="#Contact">КОНТАКТЫ</a></li>
+                    </ul>
+                </nav>
+                <div class="description_company">
+                    <div class="description_company_text">
+                        <p class="company_text">Инструмент для Вашего бизнеса!</p>
+                        <p class="mini_company_text">Самые смелые решения от команды профессионалов!</p>
+                    </div>
+
+                    <div class="description_company_massege">
+                        <h5 class="description_company_massege_title">Напишите нам</h5>
+                        <input type="text" placeholder="Имя" class="add_client">
+                        <input type="text" placeholder="Телефон" class="add_client">
+                        <input type="text" placeholder="Электронная почта" class="add_client">
+                        <input type="text" placeholder="Компания" class="add_client">
+                        <div class="add_client_button_farme">
+                            <button class="add_client_button">Отправить</button>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="company_presents" id="Home">
+                <div class="company_info">
+                    <p class="why_company_info">КТО</p>
+                    <p class="you_company_info">МЫ ?</p>
+                </div>
+                <div class="company_info_description">
+                    <div class="company_info_desc_text">
+                        <h4 class="title_compani_info">Наша главная задача - это воплощение Ваших идей!</h4>
+                        <p class="text_company_info">Мы всегда стремимся к тому, что бы делать качественный продукт, который будет нравится, как нам самим, так и нашим клиентам. И для достижения этой цели мы используем самые современные технологии с нашими профессиональными качествами.</br>Обратившись в нашу компанию, Вы всегда можете расчитывать на высокое качество наших разрабатываемых интернет продуктов. </p>
+                    </div>
+                    <div class="quote">
+                        <p class="mark_left">"</p>
+                        <p class="quote_text">Стремится стать самым крупным брендом - бессмысленно. Гораздо важнее стать самым уважаемым брендом.</p>    <p class="mark_right">"</p>
+                        <p class="speaker">Ричард Брэндом - британский предприниматель.</p>
+                    </div>
+                    <div class="logo">
+                        <img src="newImg/Logo_Pavelcom.png" alt="PavelCom" class="logo_company">
+                    </div>
+                </div>
+            </div>
+            <div class="workprocess">
+                <div class="company_info">
+                    <p class="why_company_info">ЭТАПЫ</p>
+                    <p class="you_company_info">РАЗРАБОТКИ</p>
+                </div>
+                <div class="tab">
+                    <div class="tab_media">
+                        <button class="tablinks" onclick="openCity(event, 'technical')">Техническое задание</button>
+                        <button class="tablinks" onclick="openCity(event, 'maket')">Макет сайта</button>
+                    </div>
+                    <div class="tab_media">
+                        <button class="tablinks" onclick="openCity(event, 'programing')">Программирование сайта</button>
+                        <button class="tablinks" onclick="openCity(event, 'testing')">Тестинг и сдача</button>
+                    </div>
+                    
+                  </div>
+                  
+                  <div id="technical" class="tabcontent">
+                      <div class="tab_frame">
+                        <div class="description_tab description_tab_modificator">
+                            <h4 class="title_text_tab">Вы понимаете, что получаете по окончании работы</h4>
+                            <p class="text_tab">Уже на этапе создания ТЗ вы видите и понимаете интерактивный прототип своего проекта с описанием логики, структуры, дизайна и архитектуры.</p>
+                            <h4 class="title_text_tab">Вы на все 100% контрлируете этапы разработки Вашего проекта</h4>
+                            <p class="text_tab">После создания технического задания, легко контрлировать все этапы разработки Вашего проекта.</p>
+                            <h4 class="title_text_tab">Техническое задание экономит бюджет</h4>
+                            <p class="text_tab">При наличии продуманного тех.задания вероятность проблем (а значит и дополнительных затрат) в процессе создания сайта стремится к нулю.</p>
+                        </div>
+                        <img src="img/MacBookApple.png" alt="technical" class="photo_tab">
+                      </div>                    
+                  </div>
+                  
+                  <div id="maket" class="tabcontent">
+                    <div class="tab_frame">
+                        <img src="img/iMacApple.png" alt="maket" class="photo_tab_mac">
+                        <div class="description_tab description_tab_modificator">
+                            <h4 class="title_text_tab">Обнаружить возможные проблемы на раннем этапе</h4>
+                            <p class="text_tab">Иногда дизайн, который мы представляем, в действительности выглядит совершенно другим. Когда вы воплощаете идею в реальность, вы видите все недостатки проекта. И в этот момент дизайнер может легко изменить любую деталь, ее стиль, размер или цвет. А также исключить или добавить элемент.</p>
+                            <h4 class="title_text_tab">Предложить варианты на выбор</h4>
+                            <p class="text_tab">Видение дизайнера и клиента редко совпадают. И если дизайнер хочет предложить другие решения, он может убедить клиента, имея на руках различные варианты.</p>
+                            <h4 class="title_text_tab">Легко донести свое видение до клиента</h4>
+                            <p class="text_tab">Когда клиент видит страницу сайта «Макет будущего продукта», и, если она ему нравится, он понимает, как будет функционировать весь продукт.</p>
+                        </div>                        
+                      </div> 
+                  </div>
+                  
+                  <div id="programing" class="tabcontent">
+                    <div class="tab_frame">
+                        <div class="description_tab description_tab_modificator">
+                            <h4 class="title_text_tab">Четкое представление исходного кода страницы и сайта</h4>
+                            <p class="text_tab">Программист совершенно четко понимает что он делает и может воссоздать любой элемент прорисованный в макете сайта дизайнером.</p>
+                            <h4 class="title_text_tab">Отсутствие мусора в коде страницы</h4>
+                            <p class="text_tab">Код получается правильный, легкий и не нагроможденный лишними тегами и символами.</p>
+                            <h4 class="title_text_tab">Возможность выбора конструкции верстки</h4>
+                            <p class="text_tab">Блочная и/или табличная модель.</p>
+                        </div>
+                        <img src="img/MacBookiCod.png" alt="programing" class="photo_tab">
+                      </div> 
+                  </div>
+                  <div id="testing" class="tabcontent">
+                    <div class="tab_frame">
+                        <img src="img/iMacAppleSite.png" alt="maket" class="photo_tab_mac">
+                        <div class="description_tab description_tab_modificator">
+                            <h4 class="title_text_tab">Поисковый аудит (SEO-анализ)</h4>
+                            <p class="text_tab">После которого сайт начнет выше ранжироваться в поисковой выдаче.</p>
+                            <h4 class="title_text_tab">Технический аудит</h4>
+                            <p class="text_tab">Который выявляет такие ошибки, как неработающие кнопки или формы, битые ссылки, “кривое” отображение сайта на смартфонах и т.д.</h4>
+                            <h4 class="title_text_tab">Маркетинговый аудит</h4>
+                            <p class="text_tab">Изучение сайта и его товарных предложений, сравнение с конкурентами.</p>
+                            <h4 class="title_text_tab">Проверка юзабилити</h4>
+                            <p class="text_tab">Которая показывает, насколько понятен интерфейс и удобно ли посетителям пользоваться интернет-ресурсом.</p>
+                        </div>                        
+                      </div> 
+                  </div>
+            </div>
+            <div class="team" id="About">
+                <div class="company_info">
+                    <p class="why_company_info">НАША</p>
+                    <p class="you_company_info">КОМАНДА</p>
+                </div>
+                <div class="web_dev">
+                    <div class="description_web_dev">
+                        <p class="name_web_dev">Александр Павелко</p>
+                        <p class="tile_web_dev">Web-developer</p>
+                        <p class="text_web_dev">Работа разработчика предполагает большую ответственность за код, который он создает. Ответственность, прежде всего, перед собой, а потом уже перед клиентом, заказчиком.
+                            Главная цель в моей жизни - это, стремление к самосовершенствованию.
+                            Желание развиваться, постоянно узнавать новое, быть каждый день лучше, чем вчера и идти только вверх. Не забываю постоянно учиться, изучать последние фреймворки и общаться с коллегами, которые знают и умеют больше меня. Ведь передача опыта и знаний, это ещё одна неотъемлемая часть специалиста в своём деле.
+                            Настойчивость – личностное качество, которым я горжусь. Моя настойчивость мне позволяет преследовать долгосрочные цели и не отступать от них. Также это помогает мне отстаивать свой вариант решения проблемы или внедрении новой фичи. Зачастую, это качество позволяет сэкономить время и ресурсы на проекте.</p>
+                    </div>
+                    <img src="newImg/Aleksandr_Pavelko.jpg" alt="Aleksandr Pavelko" class="photo_web_dev">
+                </div>
+                <div class="web_prod">
+                    <img src="newImg/Anastasiya_Oleynik.jpg" alt="Aleksandr Pavelko" class="photo_web_prod">
+                    <div class="description_web_prod">
+                        <p class="name_web_prod">Анастасия Олейник</p>
+                        <p class="tile_web_prod">Project-manager</p>
+                        <p class="text_web_prod">Моя главная задача - это управление проектом в целом: проектирование и расстановка приоритетов, планирование, выполнения задач, контроль, коммуникации, а также оперативное решение проблем.
+                            Я довожу идею заказчика до реализации в установленный срок, используя существующие ресурсы. 
+                            В рамках этой задачи строю план разработки, организовываю команду, настраиваю процесс работы над проектом, обеспечиваю обратную связь между командами и заказчиком, устраняю помехи для команд, контролирую качество и срок разработки.
+                            Нравится общение с людьми, в первую очередь. Постоянно новые проекты, новые сотрудники, новые заказчики, что, в свою очередь, приносит новый опыт и знания, а также возможность применить уже приобретенные знания. Возможность максимально самоорганизоваться, что приносит пользу не только на работе.</p>
+                    </div>                    
+                </div>
+            </div>
+            <div class="works">
+                <div class="company_info">
+                    <p class="why_company_info">НАШИ</p>
+                    <p class="you_company_info">РАБОТЫ</p>
+                </div>
+                <div class="works_frame">
+                    <a href="http://pavelcom.net/" class="works_link">
+                        <div class="works_card">
+                            <img src="newImg/MyWorks/PavelCom_V2.PNG" alt="PavelCom" class="works_photo">
+                            <h5 class="works_title">PavelCom.net</h5>
+                            <p class="works_description">Время выполнения - 1 неделя;</p>
+                            <p class="works_description">Технологии - HTML5, CSS, JavaScript, Vue.Js, PHP.</p>
+                            <button class="works_next">Подробнее</button>
+                        </div>
+                    </a>
+                    <a href="https://pavelcomofficial.github.io/clinic.github.io/" class="works_link">
+                        <div class="works_card">
+                            <img src="newImg/MyWorks/Clinic.PNG" alt="PavelCom" class="works_photo">
+                            <h5 class="works_title">Landing </br>для мед. клиники</h5>
+                            <p class="works_description">Время выполнения - 3 дня;</p>
+                            <p class="works_description">Технологии - HTML5, CSS, JavaScript.</p>
+                            <button class="works_next">Подробнее</button>
+                        </div>
+                    </a>
+                    <a href="https://pavelcomofficial.github.io/pavelcomold.github.io/" class="works_link">
+                        <div class="works_card">
+                            <img src="newImg/MyWorks/PavelCom_V1.PNG" alt="PavelCom" class="works_photo">
+                            <h5 class="works_title">PavelCom.net OLD</h5>
+                            <p class="works_description">Время выполнения - 1 неделя;</p>
+                            <p class="works_description">Технологии - HTML5, CSS, JavaScript.</p>
+                            <button class="works_next">Подробнее</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="technology">
+                <div class="company_info">
+                    <p class="why_company_info">НАШИ</p>
+                    <p class="you_company_info">ТЕХНОЛОГИИ</p>
+                </div>
+                <div class="technology_line">
+                    <div class="technology_title">
+                        <h4 class="technology_title_text">Стуркутра сайта</h4>
+                        <div class="technology_button" onclick="openTe(event, 'structure')">
+                            <div class="technology_body color_html">
+                             <img src="newImg/Icon_tehnology/loon-icon.svg" alt="" class="html">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="technology_title">
+                            <div class="technology_button" onclick="openTe(event, 'style')">
+                                <div class="technology_body color_css">
+                                    <img src="newImg/Icon_tehnology/CSS.svg" alt="" class="css">
+                                </div>
+                        </div>
+                        <h4 class="technology_title_text">Стиль сайта</h4>
+                    </div>
+                    <div class="technology_title">
+                        <h4 class="technology_title_text">Анимация сайта</h4>
+                        <div class="technology_button" onclick="openTe(event, 'animation')">
+                            <div class="technology_body color_js">
+                                <img src="newImg/Icon_tehnology/JS.svg" alt="" class="html">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="technology_title">
+                        <div class="technology_button" onclick="openTe(event, 'app')">
+                            <div class="technology_body color_vue">
+                                <img src="newImg/Icon_tehnology/Vue.svg" alt="" class="Vue">
+                            </div>
+                        </div>
+                        <h4 class="technology_title_text">Cайт - </br>это приложение!</h4>
+                    </div>
+                    <div class="technology_title">
+                        <h4 class="technology_title_text">Двигатель сайта</h4>
+                        <div class="technology_button" onclick="openTe(event, 'engine')">
+                            <div class="technology_body color_php">
+                                <img src="newImg/Icon_tehnology/PHP.svg" alt="" class="html">
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <div id="structure" class="technologycontent">
+                    <h4 class="technologycontent_title">HTML5</h4>
+                    <p class="technologycontent_text">HTML (HyperText Markup Language — «язык гипертекстовой разметки») — самый базовый строительный блок Веба. Он определяет содержание и структуру веб-контента. Другие технологии, помимо HTML, обычно используются для описания внешнего вида/представления (CSS) или функциональности/поведения (JavaScript) веб-страницы.
+                    </p>
+                    <p class="technologycontent_text">
+                    Под гипертекстом ("hypertext") понимаются ссылки, которые соединяют веб-страницы друг с другом либо в пределах одного веб-сайта, либо между веб-сайтами. Ссылки являются фундаментальным аспектом Веба. Загружая контент в Интернет и связывая его со страницами, созданными другими людьми, вы становитесь активным участником Всемирной паутины.</p>
+                </div>
+                <div id="style" class="technologycontent">
+                    <h4 class="technologycontent_title">CSS</h4>
+                    <p class="technologycontent_text">CSS (Cascading Style Sheets) — это код, который вы используете для стилизации вашей веб-страницы. </p>
+                    <p class="technologycontent_text">CSS на самом деле не является языком программирования. Это не язык разметки - это язык таблицы стилей. Это означает, что он позволяет применять стили выборочно к элементам в документах HTML. Например, чтобы выбрать все элементы абзаца на HTML странице и изменить текст внутри них с черного на красный.
+                    </p>
+                </div>
+                <div id="animation" class="technologycontent">
+                    <h4 class="technologycontent_title">JavaScript</h4>
+                    <p class="technologycontent_text">JavaScript — это язык программирования, который даёт возможность реализовывать сложное поведение веб-страницы. Каждый раз, когда вы видите веб-страницу, она не только отображает статическое содержимое, но и делает большее - своевременно отображает обновление контента, выводит интерактивные карты, 2D/3D анимацию, прокручивает видео и т.д. - будьте уверены, здесь не обошлось без JavaScript. </p>
+                </div>
+                <div id="app" class="technologycontent">
+                    <h4 class="technologycontent_title">Vue.js</h4>
+                    <p class="technologycontent_text">Vue.js представляет современный прогрессивный фреймворк, написанный на языке JavaScript и предназначенный для создания веб-приложений клиентского уровня. Основная сфера применения данного фреймворка - это создание и организация пользовательского интерфейса.</p>
+                    <p class="technologycontent_text">Vue.js поддерживается всеми браузерами, которые совместимы с ECMAScript 5. На данный момент это все современные браузеры, в том числе IE11.
+                    </p>
+                </div>
+                <div id="engine" class="technologycontent">
+                    <h4 class="technologycontent_title">PHP</h4>
+                    <p class="technologycontent_text"> PHP - это написание скриптов, работающих на стороне сервера; таким образом, PHP способен выполнять все то, что выполняет любая другая программа CGI, например, обрабатывать данные форм, генерировать динамические страницы или отсылать и принимать cookies.</p>
+                    <p class="technologycontent_text">PHP доступен для большинства операционных систем, включая Linux, многие модификации Unix (такие как HP-UX, Solaris и OpenBSD), Microsoft Windows, macOS, RISC OS и многие другие. Также в PHP включена поддержка большинства современных веб-серверов, таких как Apache, IIS и многих других. В принципе, подойдет любой веб-сервер, способный использовать бинарный файл FastCGI PHP, например, lighttpd или nginx. PHP может работать в качестве модуля или функционировать в качестве процессора CGI.
+                    </p>
+                </div>
+            </div>
+            <div class="services" id="Price">
+                <div class="company_info">
+                    <p class="why_company_info">НАШИ</p>
+                    <p class="you_company_info">СЕРВИСЫ</p>
+                </div>
+                <div class="line_services">
+                    <div class="kard_services one">
+                        <div class="title_body">
+                            <h4 class="title_services">Landing</h4>
+                            <p class="price_services">от 3000 грн.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="kard_services two">
+                        <div class="title_body">
+                            <h4 class="title_services">Сайт-визитка</h4>
+                            <p class="price_services">от 1000 грн.</p>            
+                        </div>
+                    </div>
+                    <div class="kard_services three">
+                        <div class="title_body">
+                            <h4 class="title_services">Сайт-каталог</h4>
+                            <p class="price_services">от 5000 грн.</p>
+                        </div>
+                    </div>
+                    <div class="kard_services four">
+                        <div class="title_body">
+                            <h4 class="title_services">Корпоративный </br> сайт</h4> 
+                            <p class="price_services">от 8000 грн.</p>                           
+                        </div>
+                    </div>
+                    <div class="kard_services five">
+                        <div class="title_body">
+                            <h4 class="title_services">Индивидуальный </br> сайт</h4>
+                            <p class="price_services">от 6000 грн.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contacts" id="Contact">
+                <div class="company_info">
+                    <p class="why_company_info">НАШИ</p>
+                    <p class="you_company_info">КОНТАКТЫ</p>
+                </div>
+                <div class="add_info_client">
+                    <div class="contacts_info">
+                        <p class="number">+380-66-122-69-37</p>
+                        <p class="email">pavelcomofficial@gmail.com</p>
+                        <p class="address">г. Днепр, Украина</p>
+                    </div>
+                    <div class="contacts_message">
+                        <div class="contact_info">
+                            <div class="name_phone">
+                                <input type="text" placeholder="Имя" class="frame">
+                                <input type="text" placeholder="Телефон" class="frame">
+                            </div>
+                            <div class="email_company">
+                                <input type="text" placeholder="Электронная почта" class="frame">
+                                <input type="text" placeholder="Компания" class="frame">
+                            </div>
+                        </div>
+                        <div class="send_message">
+                            <input type="text" placeholder="Сообщение" class="frame send_message_input">
+                        </div>
+                    </div>
+                </div>
+                <div class="button_send_client">
+                    <button class="send_info_client">Отправить</button>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+
+
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+  
+    <script src="javascript/scrol.js"></script>
+    <script src="javascript/tabs.js"></script>
+    <script src="javascript/buttTech.js"></script>
+</body>
+</html>
